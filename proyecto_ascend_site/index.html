@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto Ascend — Página promocional no oficial</title>
+  <meta name="description" content="Página promocional no oficial de Proyecto Ascend, juego de terror inspirado en vigilancia, tensión y supervivencia." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="top-disclaimer">Página promocional ficticia para presentación. No afiliada a Steam ni Valve.</div>
+
+  <header class="store-header">
+    <div class="brand"><span class="brand-dot"></span>FAKE STORE</div>
+    <nav>
+      <a href="#overview">Tienda</a>
+      <a href="#media">Multimedia</a>
+      <a href="#features">Detalles</a>
+      <a href="#download">Descarga</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="overview">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="breadcrumbs">Todos los juegos &gt; Terror &gt; Proyecto Ascend</div>
+        <div class="game-panel">
+          <div class="media-column">
+            <div class="main-preview" id="mainPreview">
+              <img src="assets/menu.jpg" alt="Menú principal de Proyecto Ascend" id="previewImage" />
+              <video src="assets/jumpscare.mp4" id="previewVideo" muted playsinline controls poster="assets/jumpscare_frame.jpg"></video>
+              <button class="sound-hint" id="soundHint">activar sonido</button>
+            </div>
+            <div class="thumbs">
+              <button class="thumb active" data-type="image" data-src="assets/menu.jpg"><img src="assets/menu.jpg" alt="Vista del menú" /><span>Menú</span></button>
+              <button class="thumb" data-type="video" data-src="assets/jumpscare.mp4"><img src="assets/jumpscare_frame.jpg" alt="Preview jumpscare" /><span>Jumpscare</span></button>
+              <button class="thumb" data-type="image" data-src="assets/logo.png"><img src="assets/logo.png" alt="Logo Proyecto Ascend" /><span>Logo</span></button>
+            </div>
+          </div>
+
+          <aside class="info-column">
+            <img class="logo" src="assets/logo.png" alt="Logo de Proyecto Ascend" />
+            <p class="short-desc">Sobrevive a una noche de vigilancia en una instalación abandonada donde cada cámara, cada contador y cada segundo pueden ser el aviso de algo peor.</p>
+            <div class="meta-grid">
+              <span>Reseñas recientes</span><b>Extremadamente tensas</b>
+              <span>Género</span><b>Terror, Vigilancia, Survival</b>
+              <span>Desarrollador</span><b>Proyecto Aseind Team</b>
+              <span>Fecha</span><b>Demo / Presentación</b>
+            </div>
+            <div class="tags"><span>Terror psicológico</span><span>Cámaras</span><span>Indie</span><span>FNAF-like</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="purchase-box" id="download">
+      <div>
+        <h2>Descargar Proyecto Ascend</h2>
+        <p>Build local para presentación. Sustituye el archivo en <code>downloads/ProyectoAscend.zip</code> por tu ejecutable comprimido.</p>
+      </div>
+      <a class="download-btn" href="downloads/ProyectoAscend.zip" download>Descargar ejecutable</a>
+    </section>
+
+    <section class="content-grid">
+      <article class="description">
+        <h2>Acerca de este juego</h2>
+        <p><strong>Proyecto Ascend</strong> es un juego de terror de vigilancia donde el jugador debe observar cámaras, controlar sistemas críticos y reaccionar antes de que una amenaza alcance su punto máximo.</p>
+        <p>La tensión se construye con una interfaz de cámaras, monitores renderizados dentro del mundo, jumpscares y una pantalla de muerte que aparece cuando el jugador falla en mantener el control.</p>
+        <h3 id="features">Características</h3>
+        <ul>
+          <li>Sistema de cámaras reflejadas en una textura dentro del escenario.</li>
+          <li>Interfaz de vigilancia con botones para cambiar entre cámaras.</li>
+          <li>Contador de peligro interactivo con mínimo y máximo.</li>
+          <li>Jumpscare en vídeo con pantalla de muerte.</li>
+          <li>Ambientación oscura de laboratorio abandonado.</li>
+        </ul>
+      </article>
+
+      <aside class="side-card">
+        <h3>Estado de la demo</h3>
+        <div class="status"><span></span> Jugable en presentación</div>
+        <hr />
+        <p><b>Idiomas:</b> Español</p>
+        <p><b>Plataforma:</b> Windows</p>
+        <p><b>Motor:</b> Unity</p>
+        <p><b>Nota:</b> Página no oficial, creada como mockup para enseñar el proyecto.</p>
+      </aside>
+    </section>
+
+    <section class="fake-reviews">
+      <h2>Opiniones de prueba</h2>
+      <div class="reviews">
+        <blockquote>“La mecánica del contador obliga a mirar la cámara correcta en el peor momento.”</blockquote>
+        <blockquote>“El menú ya transmite muy bien el tono del juego.”</blockquote>
+        <blockquote>“Ideal para una presentación corta: se entiende rápido y tiene susto final.”</blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Ascend — página promocional ficticia. No afiliada a Steam, Valve ni ninguna tienda oficial.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
